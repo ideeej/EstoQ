@@ -7,6 +7,12 @@ const _Layout = () => {
         <Tabs.Screen 
             name="index"
             options={{
+                title:"Index",
+                headerShown: false
+            }}/>
+        <Tabs.Screen 
+            name="home"
+            options={{
                 title:"Home",
                 headerShown: false
             }}/>
