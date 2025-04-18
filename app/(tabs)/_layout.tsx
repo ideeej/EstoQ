@@ -1,4 +1,3 @@
-import { View, Text } from 'react-native'
 import { Tabs } from "expo-router"
 
 const _Layout = () => {
@@ -7,13 +6,13 @@ const _Layout = () => {
         <Tabs.Screen 
             name="index"
             options={{
-                title:"Index",
+                title:"Home",
                 headerShown: false
             }}/>
         <Tabs.Screen 
-            name="home"
+            name="products"
             options={{
-                title:"Home",
+                title:"Produtos",
                 headerShown: false
             }}/>
     </Tabs>
