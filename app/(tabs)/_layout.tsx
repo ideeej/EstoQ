@@ -1,22 +1,24 @@
-import { Tabs } from "expo-router"
+import { Tabs } from "expo-router";
 
 const _Layout = () => {
   return (
     <Tabs>
-        <Tabs.Screen 
-            name="index"
-            options={{
-                title:"Home",
-                headerShown: false
-            }}/>
-        <Tabs.Screen 
-            name="products"
-            options={{
-                title:"Produtos",
-                headerShown: false
-            }}/>
+      <Tabs.Screen
+        name="index"
+        options={{
+          title: "Home",
+          headerShown: false,
+        }}
+      />
+      <Tabs.Screen
+        name="products"
+        options={{
+          title: "Produtos",
+          headerShown: false,
+        }}
+      />
     </Tabs>
-  )
-}
+  );
+};
 
-export default _Layout
+export default _Layout;

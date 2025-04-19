@@ -1,6 +1,7 @@
 {
   "name": "my-expo-app",
   "version": "1.0.0",
+  "main": "expo-router/entry",
   "scripts": {
     "android": "expo start --android",
     "ios": "expo start --ios",
@@ -40,6 +41,5 @@
     "extends": "universe/native",
     "root": true
   },
-  "main": "expo-router/entry",
   "private": true
 }
